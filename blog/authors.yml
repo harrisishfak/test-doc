@@ -8,6 +8,16 @@ yangshun:
     x: yangshunz
     github: yangshun
 
+harris:
+  name: Harris Ishfak
+  title: Founder & CEO iCodeRemotely
+  url: https://github.com/yangshun
+  image_url: https://github.com/yangshun.png
+  page: true
+  socials:
+    x: harrisishfak
+    github: harrisishfak
+
 slorber:
   name: Sébastien Lorber
   title: Docusaurus maintainer
