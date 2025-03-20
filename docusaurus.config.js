@@ -26,6 +26,17 @@ const config = {
     locales: ['en'],
   },
 
+  plugins: [
+        [
+          '@docusaurus/plugin-google-gtag',
+          {
+            trackingID: 'G-WFEBBNFN4E',
+            anonymizeIP: true, // Optional: Anonymize visitor IPs
+          },
+        ],
+  ],
+
+
   presets: [
     [
       'classic',
@@ -126,12 +137,6 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
-      },
-
-      // ✅ Google Analytics (gtag.js) Added Here
-      gtag: {
-        trackingID: 'G-WFEBBNFN4E', // Your Google Analytics tracking ID
-        anonymizeIP: true, // Optional: Anonymize visitor IPs
       },
     }),
 };
